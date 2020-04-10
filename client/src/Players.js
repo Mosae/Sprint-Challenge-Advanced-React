@@ -8,9 +8,13 @@ const Players = (props) => {
 		setDarkMode(!darkMode);
 	};
 	return (
-		<div>
+		<div className="dark-mode__toggle">
 			<h1>Players</h1>
-			<button>Dark Mode</button>
+			<button
+				onClick={toggleMode}
+				className={darkMode ? 'toggle toggled' : 'toggle'}>
+				Dark Mode
+			</button>
 			<hr />
 			<h3>
 				Names:
