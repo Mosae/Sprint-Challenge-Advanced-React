@@ -10,7 +10,7 @@ const Players = (props) => {
 	};
 	return (
 		<div className="dark-mode__toggle">
-			<h1>Players</h1>
+			<h1>Women's Football Players</h1>
 			<button
 				onClick={toggleMode}
 				className={darkMode ? 'toggle toggled' : 'toggle'}>
