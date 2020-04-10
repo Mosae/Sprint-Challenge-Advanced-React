@@ -1,5 +1,6 @@
 import React from 'react';
 import useDarkMode from './hooks/useDarkMode';
+import './Players.css';
 
 const Players = (props) => {
 	const [darkMode, setDarkMode] = useDarkMode();
