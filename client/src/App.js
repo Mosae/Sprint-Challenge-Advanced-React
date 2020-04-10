@@ -26,7 +26,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Players players={this.state.players} />
+				<Players key={Date.now()} players={this.state.players} />
 			</div>
 		);
 	}
